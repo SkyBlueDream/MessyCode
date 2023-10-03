@@ -4,18 +4,312 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test With Git</title>
+
+    <title>Recap ----</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="smileface.jpg" type="image/x-icon">
 </head>
 <body>
-    <label for="" id="mylabel">Name :</label><br>
-    <input type="text" id="username">
-    <button type="button" id="mybutton">Submit</button>
-    
+    <header>
+    <h1>Main Title</h1>
+    <img src="img/cyberpunk.jpg" alt="cyberpunk" width="450" height="300" title="Miss You ">
+  
+    <nav aria-label="primary-nagivation">
+        <ul>
+            <li><a href="#html">Learn HTML</a></li> 
+            <li><a href="#vacation">Vacation Info</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+
+            
+        </ul>
+
+
+    </nav>
+</header>
+<hr>
  
+    <main>
+    <article id="html">
+ 
+    <h2>I really want to stay at your house</h2> .
+    <p>This is my first .....page </p>
+
+    <section>
+        <h3>CyberPunk 2077</h3>
+        <figure>
+
+            <img src="" alt="">
+            <figcaption>Someday ... Somewhere</figcaption>
+            <p>
+                <code>Bring You To Moon &lt;3</code>
+                <br>
+                <code>&lt;h1&gt;Hello Moon&lt;/h1&gt;</code>
+            </p>
+        </figure>
+
+    </section>
+
+    <section>
+
+        <h3>Random Dollar Dancing </h3>
+
+        <p>Let me tell you something :  </p>
+        <ol> 
+
+        <li>... Lorem ipsum dolor sit.</li>
+        <li>... Lorem ipsum dolor sit.</li>
+        <li>... Lorem ipsum dolor sit.</li>
+        
+        </ol>  
+        <aside>
+            <details>
+                <summary>
+                    Guess the number of things that i want to do with you
+                </summary>
+                <p><em>Infinity</em></p>
+        </details>
+
+        <details>
+            <summary>Guess the number my lucky numbers</summary>
+            <p><strong>27</strong></p>
+        </details>
+    </aside>
+    <br>
+        
+    <table>
+        <caption>Daily Schedule</caption>
+
+        <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Morning</th>
+            <td><time datetime="8:00">8 am</time></td>
+            <td>Coding</td>
+
+        </tr>
+
+        <tr>
+            <th>Afternoon</th>
+            <td><time datetime="17:00">5 pm</time></td>
+            <td>Shower Dinner</td>
+
+        </tr>
+
+        <tr>
+            <th>Evening</th>
+            <td><time datetime="19:00">7 pm</time></td>
+            <td>Study soft skill</td>
+
+        </tr>
+        <tr>
+            <th>Night</th>
+            <td rowspan="2">All other times</td>
+            <td>Free time</td>
+        </tr>
+        <tr><th>Midnight</th>
+            <td>Sleep</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">Eat Sleep Study Working Coding 
+                    and Gaming 
+                </td>
+            </tr>
+        </tfoot>
+
+    </tbody>
+    </table>
+
+</section>
+    </article>
+
+    <hr>
+
+    <article id="Vacation">
+
+    <h2>Planing To Go With You</h2>  
+    <P>I has been waiting for this moment</P>
+
+    <section>
+    <h3>Things to do : ¬ </h3>
+
+    <figure>
+    <img src="img/cyberpunk2.webp" alt="cyberpunk" title="lets stay together" width="450" height="300">
+        <figcaption>Being With You made me happy</figcaption>
+
+    </figure>
+
+    <ul>
+
+    <li> ipsum dolor sit.</li>
+
+    <li>Like a <abbr title="NoOne"> Sky </abbr> so close yet so far</li>
+
+    <li>
+        <p> is a place i'd like to visit :
+        <address>
+            &nbsp; Japan - Tokyo , Osaka , Kyoto and Sendai <br>
+            &nbsp; USA - New York , Califonia , Las Vegas 
+        </address>
+        </p>
+    </li>    
+</ul>
+</section>
+</article>
+
+<hr>
+
+<section>
+    <h2>Third Main Topic</h2>
+
+    <h3>topic headline</h3>
+    <dl>
+        <dt>North Pole</dt>
+        <dd>its really <strong>Cold</strong>!</dd>
+
+        <dt>North Korea</dt>
+        <dd>dont really feel <em>Safe</em></dd>
+
+        <dt>Somewhere ....</dt>
+        <dd>running and swimming into <b>Dark</b></dd>
+    </dl>
+
+</section>
+</main>
+<hr>
+
+<article id="contact">
+    <h2>Contact Me</h2>
+    <p>Show Me The Money</p>
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Your Personal Details</legend>
+        <p>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="ex Your Name" autocomplete="on" autofocus>
+    </p>
+    <p>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="ex Your Name" autocomplete="on"> 
+    </p>
+    <p>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass" id="pass" placeholder="123123" required> 
+    </p>
+    <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="0000-8888-156" required pattern="[0-9]{4}[0-9]{4}[0-9]{3}"> 
+    </p>
+
+    <p>
+        <label for="decade">Favorite Decade:</label>
+        <input type="number" name="decade" id="decade" placeholder="1950" required
+        max="2077" min="1950" value="2000" step="10"> 
+    </p>
+
+    <p>
+        <label for="Seasons">Favorite Seasons: </label>
+        <select name="Seasons" id="Seasons">
+        <optgroup label="4 Seasons">
+            <option value="winter">winter</option>
+            <option value="fall">fall</option>
+            <option value="autumn">autumn</option>
+            <option value="summer">summer</option>
+        </optgroup>
+        </select>
+        
+    </p>
+   <!--  <p>
+        <label for="coffee"></label>
+        <input type="text" name="coffee" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+            <option value="coffee"></option>
+            <option value="latte"></option>
+            <option value="capccino"></option>
+            <option value="espresso"></option>
+            <option value="americano"></option>
+            <option value="others"></option>
+
+        </datalist>
+    </p> -->
+</fieldset>
+<br>
+<fieldset>
+    <legend>Extra Info :</legend>
+    <p>
+        <input type="radio" name="food" id="tacos" value="tacos">
+        <label for="tacos">Tacos</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="burger" value="burger">
+        <label for="burger">Burger</label>
+    </p>
+    <p>
+        <input type="radio" name="food" id="pizza" value="pizza">
+        <label for="pizza">Pizza</label>
+    </p>
+
+</fieldset>
+<fieldset>
+    <legend>Pets Owner</legend>
+    <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">Dog</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="cat">Cat</label>
+    </p>
+    <p>  
+        <input type="checkbox" name="pets" id="rabbit" value="rabbit">
+        <label for="rabbit">Rabbit</label>
+    </p>
+    <p>
+        <input type="checkbox" name="pets" id="hamster" value="hamster">
+        <label for="hamster">Hamster</label>
+    </p>
+
+</fieldset>
+<fieldset>
+    <legend>Send a Message :</legend>
+    <p>
+        <label for="message">Write a Message :</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="type you message!"></textarea>
+    </p>
+</fieldset>
+<button type="submit">Submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+<button type="reset">Reset</button>
 
 
-    
-    <script src="index.js"></script>
+    </form>
+
+</article>
+
+<hr>
+
+<footer>
+
+    <p>
+        <ul>
+            <li>Download Smile Icon<a href="smileface.jpg" download> Here</a></li>
+        </ul>
+    </p>
+ 
+    <p>
+        &lt; &copy; Dr.Sun &gt; 
+    </p>
+    <p>
+        <a href="#">Go back</a>
+    </p>
+ 
+</footer>
 </body>
 </html>

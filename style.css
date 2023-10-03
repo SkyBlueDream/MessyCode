@@ -1,3 +1,23 @@
 body{
-    background-color: coral;
+    background-color: rgb(31, 33, 28);
+    color: antiquewhite;
+    font-size: 20px;
 }
+
+a {
+    color:aqua
+}
+a:visited {
+    color: red;
+}
+a:hover , a:active {
+    color: #eee;
+}
+table , tr , th , td , caption {
+    border: 1px solid palegreen;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+ 
