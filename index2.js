@@ -1,6 +1,7 @@
 let a ;
 let b ;
 let c ;
+let d = "do nothing"
 
 document.getElementById("myButton"),onclick = function() {
     a = document.getElementById("textA").value;
